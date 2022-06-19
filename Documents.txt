@@ -1,0 +1,31 @@
+Installation for node
+1.  Download Node.js 
+2.  Install Node.js and NPM from Browser
+3.   npm -v  (checking node)
+4.   node -v  (checking version)
+
+Installation of module in node.js
+1. npm init 
+2. npm init -y 
+3.  npm i express
+4.  npm i mongoose
+5.  npm i jsonwebtoken
+6.  npm i dotenv 
+7.  npm i validator
+
+Installation for react
+1.  npx create-react-app projectName (PROJECT1)
+2.  npm install --save react-router-dom 
+
+
+About project working 
+1. user sign up form => fill the details of users.
+2. user login page => user login with email id and password and the JWT token will automatically generated which will use for the futher requests.
+     After login the user list will appear.
+3.  Allusers => When token will expire the user will automatically return back to the login page
+4. Logout => on logout, the token will deleted and the user will return back to the login page
+
+
+
+
+
